@@ -1,0 +1,6 @@
+-Accueil
+-Tous les produits (pages de chaques produits)
+-Système de upvote*
+-Comptes
+-A propos, confidentialités, ect...
+-Transactions

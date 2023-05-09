@@ -1,0 +1,158 @@
+header {
+  background-color: hsl(0, 0%, 90%);
+  border-top: 3px solid hsl(95, 65%, 60%);
+  border-bottom: 3px solid hsl(95, 65%, 60%);
+  padding: 20px 0;
+  text-align: center;
+  margin-top: -8px;
+  /*margin-left: -8px;
+  margin-right: -8px; */
+  }
+
+  body {
+    overflow-x: hidden; 
+    overflow-y: scroll; 
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 10px;
+    margin-left: -8px;
+    margin-right: -20px;
+    margin-bottom: -8px;
+}
+
+  footer {
+    border-top: 3px solid hsl(95, 65%, 60%);
+    background-color: hsl(0, 0%, 80%);
+    position: relative;
+    text-align: center;
+    padding: 50px;
+    display: block;
+    margin-right: -8px;
+  }
+  /* onglet histoire*/
+  .histoire {
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 10px;
+    margin-left: 18px;
+    margin-right: 18px;
+  }
+  /* onglet compte*/
+  .compte {
+    height: 100px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+
+  .logo {
+    height: 100px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+  /* navbar */
+  nav {
+    display: inline-block;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  nav li a {
+    color: hsl(0, 0%, 20%);
+    text-decoration: none;
+    font-size: 25px;
+  }
+  
+  nav li a:hover {
+    color: hsl(200, 100%, 50%);
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin: 20px 0;
+  }
+  
+  p {
+    font-size: 18px;
+    margin: 0;
+  }
+  /* caddis */    
+.cart {
+    display: inline-block;
+    margin-left: 20px;
+  }
+
+  .cart a:hover {
+    background-color: hsl(200, 100%, 35%);
+  }
+  /* bckg accueil */
+  .hero-section {
+    position: relative;
+    height: 0;
+    padding-bottom: 50%;
+    overflow: hidden;
+  }
+
+  .hero-section img {              
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+  }
+
+  .hero-text h1 {
+    background-color: hsla(0, 0%, 100%, 0.400);
+    color: hsl(0, 0%, 100%);
+    text-shadow: 0 0 2px hsl(0, 0%, 0%), 0 0 2px hsl(0, 0%, 0%), 0 0 2px hsl(0, 0%, 0%), 0 0 2px hsl(0, 0%, 0%), 0 0 2px hsl(0, 0%, 0%), 0 0 2px hsl(0, 0%, 0%), 0 0 2px hsl(0, 0%, 0%), 0 0 2px hsl(0, 0%, 0%), 0 0 2px hsl(0, 0%, 0%), 0 0 2px hsl(0, 0%, 0%), 0 0 2px hsl(0, 0%, 0%), 0 0 2px hsl(0, 0%, 0%), 0 0 2px hsl(0, 0%, 0%), 0 0 2px hsl(0, 0%, 0%), 0 0 2px hsl(0, 0%, 0%), 0 0 2px hsl(0, 0%, 0%), 0 0 2px hsl(0, 0%, 0%), 0 0 2px hsl(0, 0%, 0%), 0 0 2px hsl(0, 0%, 0%), 0 0 2px hsl(0, 0%, 0%), 0 0 2px hsl(0, 0%, 0%);
+    padding: 20px 40px;
+    border-radius: 15px;
+    font-size: 48px;
+    padding: 20px 40px;
+  }
+
+  .hero-button {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: inline-block;
+    padding: 20px 40px;
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(0, 0%, 20%);
+    font-size: 24px;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+    margin: 80px 0 0 0;
+  }
+  
+  .hero-button:hover {
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+  }
+  /* map */
+  #map {
+    width: 200vh;
+    height: 450px;
+    background: #d6d6d6;
+}
